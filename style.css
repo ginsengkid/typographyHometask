@@ -1,0 +1,59 @@
+body{
+    min-width: 780px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(84,174,223);
+    background: linear-gradient(90deg, rgba(84,174,223,1) 0%, rgba(212,212,226,1) 50%, rgba(84,174,223,1) 100%);
+}
+.mainPic{
+    padding-top: 100px;
+    margin: 0 auto;
+    content:url(img/grizzliesLogo.webp);
+    width: 266px;
+    height: 252px;
+}
+
+.rightBackgroundPic{
+    z-index: -1;
+    margin-top: -10%;
+    margin-left: 5%;
+    float: left;
+    opacity: 60%;
+    content:url(img/ja.webp);
+    width: 358px;
+    height: 500px;
+    transform: scale(-1,1);
+}
+
+.leftBackgroundPic  {
+    z-index: -1;
+    margin-top: -10%;
+    float: right;
+    opacity: 60%;
+    content:url(img/ja2.webp);
+    width: 500px;
+    height: 500px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+}
+
+.links ul{
+    padding-top: 150px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.links li {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 40px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #090d2d;
+}
