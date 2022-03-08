@@ -19,7 +19,7 @@ body{
 .rightBackgroundPic{
     position: fixed;
     z-index: -1;
-    right: 10px;
+    right: -30px;
     opacity: 60%;
     content:url(img/ja.webp);
     width: 358px;
@@ -33,7 +33,7 @@ body{
     content:url(img/ja2.webp);
     width: 500px;
     height: 500px;
-    left:10px;
+    left:-80px;
 }
 
 .unselectable {
@@ -114,6 +114,7 @@ p{
     padding-right: 120px;
     padding-bottom: 10px;
     margin: 0;
+    font-weight: 400;
 }
 
 
