@@ -16,26 +16,6 @@ body{
     height: 252px;
 }
 
-.rightBackgroundPic{
-    position: fixed;
-    z-index: -1;
-    right: -30px;
-    opacity: 60%;
-    content:url(img/ja.webp);
-    width: 358px;
-    height: 500px;
-}
-
-.leftBackgroundPic  {
-    position: fixed;
-    z-index: -1;
-    opacity: 60%;
-    content:url(img/ja2.webp);
-    width: 500px;
-    height: 500px;
-    left:-80px;
-}
-
 .unselectable {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -152,20 +132,3 @@ p{
     padding-bottom: 30px;
 }
 
-.firstPic{
-    content:url(img/Jadunk.webp);
-    width: 332px;
-    height: 280px;
-}
-
-.thirdPic{
-    content:url(img/JaMorant2.webp);
-    width: 345px;
-    height: 280px;
-}
-
-.secondPic{
-    content:url(img/JaMeme.webp);
-    width: 270px;
-    height: 280px;
-}
